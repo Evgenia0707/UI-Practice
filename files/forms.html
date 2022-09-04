@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <title>Form Practice</title>
+</head>
+<body>
+
+<form>
+
+    <p>
+        Username:
+        <input type="text"  name="username" placeholder="Type your username">
+    </p>
+
+    <p>
+        Password:
+        <input type="password" placeholder="Type your password">
+    </p>
+
+    <p>
+        What did you think of this trip?
+    </p>
+
+    <textarea cols="30" rows="7" placeholder="Enter text"></textarea>
+
+    <br>
+
+    <p>Select your favorite food:</p>
+
+    <input type="radio" name="food" value="burger">Burger
+    <input type="radio" name="food" value="kebab" checked>Kebab
+    <input type="radio" name="food" value="salad">Salad
+
+
+    <br>
+    <p>Pick a date:
+        <input type="date">
+        <input type="time">
+    </p>
+
+    <p>
+        Please upload your resume:
+        <br>
+        <input type="file">
+    </p>
+
+
+    <p>
+        Please select your favorite course(s):
+    </p>
+    <label for="java">
+        <input type="checkbox" name="course" value="java" id="java">Java
+    </label>
+
+    <input type="checkbox" name="course" value="DS">DS
+
+    <label for="ui">
+        <input type="checkbox" name="course" value="UI" id="ui">UI
+    </label>
+    <input type="checkbox" name="course" value="softSkills">softSkills
+
+    <p>
+        Please select the program:
+    </p>
+
+    <select name="program" id="">
+        <option value=""disabled selected>Select a program</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">Java SDET</option>
+        <option value="cs">Cyber Security</option>
+    </select>
+
+    <br>
+    <br>
+
+    <input type="submit" value="Sign Up" idsignup>
+
+
+
+</form>
+
+
+</body>
+</html>
